@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+.bg-color-brand-description {
+    background-color: #3f271e;
+}
+
 header{
     margin: 0;
+}
+
+.heading{
+    margin-left: 50px;
 }
 
 .logo {
@@ -13,4 +21,20 @@ header{
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+.brand{
+    font-family:"Arial", sans-serif;
+    font-weight: 150;
+    font size: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+.description{
+    font-family:"lora", sans-serif;
+    font weight: 200px;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
 }
