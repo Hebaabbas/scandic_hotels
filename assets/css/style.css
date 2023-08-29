@@ -62,3 +62,32 @@ header {
 #nav li {
     font-size: 14px;
 }
+
+.navitem{
+    height: 50px;
+    text-align: center;
+    padding: 0;
+}
+.navitem a {
+    width: 100%;
+    text-decoration: none;
+    color:#472812;
+    height:100px;
+}
+.navitem a i {
+    padding-top: 4px;
+    display: block;
+    color: #fafafa;
+    font-size: 24px;
+}
+
+.navitem span {
+    display: block;
+    width: 100%;
+    padding-top: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
