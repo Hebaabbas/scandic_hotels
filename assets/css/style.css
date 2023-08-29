@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+
 .bg-color-brand-description {
-    background-color: #3f271e;
+    background-color: #472812;
 }
 
-header{
+.ui-menu-color-guide {
+    background-color: #cc8271;
+}
+
+.ui-menu-color-contact {
+    background-color: #e3b6b6;
+}
+
+.ui-menu-color-download {
+    background-color: #cc8271;
+}
+
+header {
     margin: 0;
 }
 
-.heading{
+.heading {
     margin-left: 50px;
 }
 
@@ -17,24 +30,35 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-}
-.brand{
-    font-family:"Arial", sans-serif;
-    font-weight: 150;
-    font size: 50px;
-    margin-top: 50px;
-    color: white;
+    min-height: 300px;
+
 }
 
-.description{
-    font-family:"lora", sans-serif;
-    font weight: 200px;
+.brand {
+    font-family: "Exo", sans-serif;
+    font-weight: 150;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #f1dbdb;
+}
+
+.description {
+    font-family: "Lora", sans-serif;
+    font-weight: 200;
     font-size: 25px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: white;
+    color: #e3b6b6;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
 }
