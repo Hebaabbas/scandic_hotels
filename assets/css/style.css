@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+body{
+    background-color: #f1dbdb;
+}
 
 .bg-color-brand-description {
     background-color: #472812;
@@ -9,12 +12,29 @@
     background-color: #cc8271;
 }
 
+
+
 .ui-menu-color-contact {
     background-color: #e3b6b6;
 }
 
 .ui-menu-color-download {
     background-color: #cc8271;
+}
+.row-table {
+    display: table;
+}
+.section-column {
+    display: table-cell;
+    padding: 0 20px 20px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Lora", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 h1,h2,h3,h4{
