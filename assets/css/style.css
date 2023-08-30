@@ -20,6 +20,7 @@
 h1,h2,h3,h4{
     margin: 0;
 }
+
 header {
     margin: 0;
 }
@@ -111,4 +112,36 @@ footer {
     min-height: 80px;
     margin: 0;
     font-weight: 300;
+}
+.info.pdf i {
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+}
+.info-pdf i:hover {
+    color: #e3b6b6;
+}
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+}
+
+.social-links li a i:hover {
+    background: #e3b6ba;
+}
+
+#footer-details {
+    padding: 20px;
 }
