@@ -17,6 +17,9 @@
     background-color: #cc8271;
 }
 
+h1,h2,h3,h4{
+    margin: 0;
+}
 header {
     margin: 0;
 }
@@ -98,4 +101,14 @@ header {
 .hvr-sweep-to-right:before{
     background: rgba(0, 0, 0, 0.2);
     height: 80px;
+}
+.general-sub{
+    font-weight: 300;
+}
+footer {
+    background-color: #472812;
+    color: #e3b6ba;
+    min-height: 80px;
+    margin: 0;
+    font-weight: 300;
 }
