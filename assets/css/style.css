@@ -58,13 +58,16 @@ header {
 .menucontainer {
     font-size: 0;
 }
+#nav{
+    margin:0;
+}
 
 #nav li {
     font-size: 14px;
 }
 
 .navitem{
-    height: 50px;
+
     text-align: center;
     padding: 0;
 }
@@ -72,10 +75,10 @@ header {
     width: 100%;
     text-decoration: none;
     color:#472812;
-    height:100px;
+    height:80px;
 }
 .navitem a i {
-    padding-top: 4px;
+    padding-top: 15px;
     display: block;
     color: #fafafa;
     font-size: 24px;
@@ -84,10 +87,15 @@ header {
 .navitem span {
     display: block;
     width: 100%;
-    padding-top: 3px;
+    padding-top: 8px;
     text-align: center;
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
+}
+
+.hvr-sweep-to-right:before{
+    background: rgba(0, 0, 0, 0.2);
+    height: 80px;
 }
