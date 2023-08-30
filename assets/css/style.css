@@ -2,6 +2,7 @@
 
 body{
     background-color: #f1dbdb;
+
 }
 
 .bg-color-brand-description {
@@ -30,13 +31,13 @@ body{
     float: none;
 }
 
+
 .section-heading {
     font-family: "Lora", sans-serif;
     font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
-
 h1,h2,h3,h4{
     margin: 0;
 }
@@ -164,4 +165,12 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+.explore-scandic-icon {
+    font-size: 30px;
+    color: #472812;
+}
+
+.explore-scandic-heading {
+    margin-bottom: 20px;
 }
