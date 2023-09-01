@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Scandic Hotels</title>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init("service_u77afju");
+    })();
+</script>
 </head>
 <body>
     <header>
@@ -47,29 +55,26 @@
 
     </header>
     <section class="container-fluid">
-        <div class="row bg-color-contact-us">
+        <div class="row bg-color-contact">
             <div class="col">
-                <h3 class="contact-us-heading uppercase text-center">Do you wish to contact us?</h3>
-                <h5 class="contact-us-heading text-center">If you have any questions or inquiries, please feel free to reach out to us using the form below.
+                <h3 class="contact-heading uppercase text-center">Do you wish to contact us?</h3>
+                <h5 class="contact-heading text-center">If you have any questions or inquiries, please feel free to reach out to us using the form below.
                 </h5>
 
                 <div class="center-form">
-                    <form>
-                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Name" required />
-                        <input type="email" name="email" id="emailaddress" class="form-control" placeholder="Email" required />
-                        <textarea rows="6" name="paragraph" id="paragraph" class="form-control" placeholder="Please write your wish or need here." required></textarea>
+                    <form onsubmit="return sendMail(this);">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+                        <textarea rows="6" name="message" id="message" class="form-control" placeholder="Enter your message" required></textarea>
                         <div class="form-row text-center">
                             <div class="col">
-                                <button type="submit" class="btn btn-secondary">Send</button>
+                                <button type="submit" class="btn btn-secondary center-block">Send</button>
                             </div>
                         </div>
                     </form>
                 </div>
-
             </div>
         </div>
-
-
     </section>
     <footer class="container-fluid">
         <div id="footer-details" class="row">
@@ -107,5 +112,7 @@
                 </ul>
             </div>
     </footer>
+    <script src="assets/js/email.js"></script>
+
 </body>
 </html>
