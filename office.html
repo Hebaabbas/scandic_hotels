@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/map.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/cheerio/1.0.0/cheerio.min.js"></script>
 
@@ -56,7 +55,7 @@
             <div class="col-md-8 scandic-office section-column">
                 <div class="row">
                     <div class="col">
-                        <h3 class="section-heading uppercase">Our head offices:</h3>
+                        <h2 class="section-heading uppercase">Our head offices:</h3>
                     </div>
                 </div>
                 <div class="row">
@@ -150,15 +149,14 @@
                 </ul>
             </div>
     </footer>
-    <script>
-        function initMap() {
-        let uluru = { lat: 59.349930, lng: 18.045120 };
-        let map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 8, center: uluru }
-        );
-        let marker = new google.maps.Marker({ position: uluru, map: map });
-    }
-    </script>
 
+    <script>
+    function initMap() {
+        let sweden = { lat: 59.349930, lng: 18.045120 };
+        let map = new google.maps.Map(
+            document.getElementById('map'), { zoom: 8, center: sweden }
+        );
+        let marker = new google.maps.Marker({ position: sweden, map: map });}
+    </script>
 </body>
 </html>
